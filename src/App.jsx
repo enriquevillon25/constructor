@@ -27,6 +27,8 @@ import {
 import { SectionTitle } from './components/SectionTitle';
 import { siteContent } from './content/siteContent';
 
+const logoSrc = `${import.meta.env.BASE_URL}logo-jocaval.svg`;
+
 const serviceIcons = [
   <EngineeringRounded fontSize="large" />,
   <ScienceRounded fontSize="large" />,
@@ -68,7 +70,7 @@ function App() {
               >
                 <Box
                   component="img"
-                  src="/logo-jocaval.svg"
+                  src={logoSrc}
                   alt={`Logo ${siteContent.shortName}`}
                   sx={{
                     width: '100%',
