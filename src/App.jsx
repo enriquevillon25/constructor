@@ -362,7 +362,7 @@ function App() {
                   <SectionTitle
                     eyebrow="CONTACTO"
                     title="Contacto e informacion legal"
-                    description="Ya reemplace el nombre, RUC y direccion. Los telefonos y correos siguen listos para que me pases los datos reales cuando quieras."
+                    description="Informacion de contacto y datos legales de Constructora y Consultoria Jocaval S.A.C."
                   />
                   <Stack spacing={2.2} sx={{ mt: 3 }}>
                     <Stack direction="row" spacing={1.5} alignItems="center">
@@ -435,9 +435,6 @@ function App() {
         >
           <Typography color="text.secondary">
             © 2026 {siteContent.companyName}. {siteContent.footerText}
-          </Typography>
-          <Typography color="text.secondary">
-            Textos editables en <code>src/content/siteContent.js</code>
           </Typography>
         </Stack>
       </Container>

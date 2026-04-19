@@ -97,9 +97,9 @@ export const siteContent = {
   ],
   contact: {
     phones: ['Agregar telefono principal', 'Agregar telefono secundario'],
-    emails: ['Agregar correo comercial', 'Agregar correo alterno'],
+    emails: ['jocaval1969@hotmail.com'],
     address: 'Cal. el Maizal Nro. 146 Dpto. 101, Urbanizacion Polo Sur, Santiago de Surco, Lima, Peru',
     ruc: '20531841035',
   },
-  footerText: 'Constructora y Consultoria Jocaval S.A.C. - informacion corporativa editable.',
+  footerText: 'Construccion y consultoria para proyectos con respaldo formal.',
 };
