@@ -18,23 +18,48 @@ export const siteContent = {
   },
   heroStats: [
     { value: 'RUC', label: '20531841035' },
-    { value: '2022', label: 'Inicio de actividades: 04 de julio de 2022' },
+    { value: 'ISO', label: '45001:2018 y 37001:2016' },
     { value: 'Lima', label: 'Santiago de Surco, Peru' },
   ],
   overview:
     'Somos una empresa activa del sector construccion que atiende proyectos con una propuesta corporativa sencilla, formal y orientada a generar confianza. Esta landing presenta la informacion clave del negocio de forma clara y facil de actualizar.',
   about:
     'Constructora y Consultoria Jocaval S.A.C. tiene como actividad comercial la construccion de edificios completos. La empresa opera en Lima, Peru, con domicilio legal en la urbanizacion Polo Sur, distrito de Santiago de Surco.',
+  missionVision: [
+    {
+      title: 'Mision',
+      description:
+        'Ejecutar y acompanar proyectos de construccion con responsabilidad, orden tecnico y compromiso con las necesidades de cada cliente.',
+    },
+    {
+      title: 'Vision',
+      description:
+        'Ser una empresa constructora y consultora reconocida por su seriedad, cumplimiento y crecimiento sostenible en el sector.',
+    },
+  ],
   highlights: [
     'Condicion SUNAT: Activo.',
     'Estado de domicilio: Habido.',
     'CIIU: 45207.',
+    'ISO 45001:2018 e ISO 37001:2016.',
   ],
-  policies: [
-    'Razon social',
-    'Condicion tributaria',
-    'Actividad comercial',
-    'Direccion legal',
+  institutionalCards: [
+    {
+      title: 'ISO 45001:2018',
+      description: 'Sistema de gestion de la seguridad y salud en el trabajo.',
+    },
+    {
+      title: 'ISO 37001:2016',
+      description: 'Sistema de gestion antisoborno para fortalecer integridad y buenas practicas.',
+    },
+    {
+      title: 'Razon social',
+      description: 'CONSTRUCTORA Y CONSULTORIA JOCAVAL S.A.C.',
+    },
+    {
+      title: 'Actividad comercial',
+      description: 'Construccion de edificios completos. CIIU 45207.',
+    },
   ],
   services: [
     {

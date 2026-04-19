@@ -62,8 +62,8 @@ function App() {
             <Stack direction="row" spacing={1.5} alignItems="center">
               <Box
                 sx={{
-                  width: { xs: 64, md: 72 },
-                  height: { xs: 40, md: 44 },
+                  width: { xs: 190, sm: 230, md: 270 },
+                  height: { xs: 54, md: 66 },
                   display: 'flex',
                   alignItems: 'center',
                 }}
@@ -79,7 +79,7 @@ function App() {
                   }}
                 />
               </Box>
-              <Box>
+              <Box sx={{ display: { xs: 'none', lg: 'block' } }}>
                 <Typography variant="subtitle1" sx={{ fontWeight: 800, lineHeight: 1.1 }}>
                   {siteContent.companyName}
                 </Typography>
@@ -218,6 +218,28 @@ function App() {
                     <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
                       {siteContent.about}
                     </Typography>
+                    <Grid container spacing={2} sx={{ mb: 3 }}>
+                      {siteContent.missionVision.map((item) => (
+                        <Grid item xs={12} sm={6} key={item.title}>
+                          <Box
+                            sx={{
+                              height: '100%',
+                              p: 2.5,
+                              borderRadius: 3,
+                              bgcolor: 'rgba(13,59,102,0.05)',
+                              border: '1px solid rgba(13,59,102,0.08)',
+                            }}
+                          >
+                            <Typography variant="h6" sx={{ mb: 1 }}>
+                              {item.title}
+                            </Typography>
+                            <Typography color="text.secondary" sx={{ fontSize: '0.95rem' }}>
+                              {item.description}
+                            </Typography>
+                          </Box>
+                        </Grid>
+                      ))}
+                    </Grid>
                     <Stack spacing={1.5}>
                       {siteContent.highlights.map((item) => (
                         <Chip
@@ -242,21 +264,19 @@ function App() {
           <Box>
             <SectionTitle
               eyebrow="POLÍTICAS"
-              title="Informacion formal del negocio"
-              description="Este bloque puede usarse para mostrar datos societarios, documentos, constancias o informacion institucional."
+              title="Gestion, cumplimiento y datos institucionales"
+              description="Jocaval presenta informacion corporativa clave junto a sistemas de gestion relevantes para seguridad, salud e integridad empresarial."
               align="center"
             />
             <Grid container spacing={3} sx={{ mt: 1 }}>
-              {siteContent.policies.map((policy) => (
-                <Grid item key={policy} xs={12} sm={6} md={3}>
+              {siteContent.institutionalCards.map((card) => (
+                <Grid item key={card.title} xs={12} sm={6} md={3}>
                   <Card sx={{ height: '100%' }}>
                     <CardContent sx={{ p: 3.5 }}>
                       <Typography variant="h6" sx={{ mb: 1.5 }}>
-                        {policy}
+                        {card.title}
                       </Typography>
-                      <Typography color="text.secondary">
-                        Espacio editable para agregar detalle, documento o enlace relacionado.
-                      </Typography>
+                      <Typography color="text.secondary">{card.description}</Typography>
                     </CardContent>
                   </Card>
                 </Grid>
