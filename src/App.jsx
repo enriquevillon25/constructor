@@ -62,8 +62,8 @@ function App() {
             <Stack direction="row" spacing={1.5} alignItems="center">
               <Box
                 sx={{
-                  width: { xs: 190, sm: 230, md: 270 },
-                  height: { xs: 54, md: 66 },
+                  width: { xs: 230, sm: 300, md: 360 },
+                  height: { xs: 56, md: 70 },
                   display: 'flex',
                   alignItems: 'center',
                 }}
@@ -78,14 +78,6 @@ function App() {
                     objectFit: 'contain',
                   }}
                 />
-              </Box>
-              <Box sx={{ display: { xs: 'none', lg: 'block' } }}>
-                <Typography variant="subtitle1" sx={{ fontWeight: 800, lineHeight: 1.1 }}>
-                  {siteContent.companyName}
-                </Typography>
-                <Typography variant="caption" color="text.secondary">
-                  {siteContent.companyType}
-                </Typography>
               </Box>
             </Stack>
 

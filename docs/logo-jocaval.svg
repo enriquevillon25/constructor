@@ -1,53 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 112" role="img" aria-labelledby="title desc">
   <title id="title">Constructora y Consultoria Jocaval S.A.C.</title>
-  <desc id="desc">Logo horizontal con edificios azules y el texto Jocaval S.A.C.</desc>
+  <desc id="desc">Logo de Jocaval S.A.C. con edificios azules y nombre de la empresa.</desc>
   <defs>
-    <linearGradient id="tower" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#12307a"/>
-      <stop offset="100%" stop-color="#1f8ac8"/>
-    </linearGradient>
-    <linearGradient id="name" x1="0" x2="1" y1="0" y2="0">
+    <linearGradient id="buildingMain" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#17357f"/>
-      <stop offset="100%" stop-color="#2f3474"/>
+      <stop offset="100%" stop-color="#1e8ac8"/>
     </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="1.2" dy="1.6" stdDeviation="0.3" flood-color="#0c1f58" flood-opacity="0.35"/>
+    </filter>
   </defs>
 
-  <rect width="520" height="150" fill="none"/>
+  <rect width="430" height="112" fill="none"/>
 
-  <g transform="translate(18 14)">
-    <path d="M14 116c42-19 88-19 132 0" fill="none" stroke="#1b7fb7" stroke-width="4" stroke-linecap="round"/>
-    <path d="M20 103h44V74l-22-12-22 12v29Z" fill="#f7fbff" stroke="#1b5f99" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M64 103h47V65L88 52 64 65v38Z" fill="#f7fbff" stroke="#1b5f99" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M29 84h8v9h-8zM47 84h8v9h-8zM73 76h8v9h-8zM93 76h8v9h-8z" fill="#1b5f99"/>
+  <g transform="translate(8 8)">
+    <path d="M4 92c26-12 55-12 83 0" fill="none" stroke="#1d8fc4" stroke-width="3.5" stroke-linecap="round"/>
 
-    <path d="M30 66V22l24-12v68H30Z" fill="#1e77b7"/>
-    <path d="M55 61V16L79 4v70H55Z" fill="#17357f"/>
-    <path d="M80 56V32l15-8v41H80Z" fill="#2aa1d5"/>
-    <path d="M30 66h50v12H30z" fill="#17357f" opacity="0.16"/>
+    <path d="M12 82h26V61L25 54 12 61v21Z" fill="#ffffff" stroke="#1b5f99" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M38 82h30V57L53 49 38 57v25Z" fill="#ffffff" stroke="#1b5f99" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M19 68h5v6h-5zM29 68h5v6h-5zM46 64h5v6h-5zM57 64h5v6h-5z" fill="#1b5f99"/>
+
+    <path d="M22 57V20l20-10v56H22Z" fill="#1e7fbc"/>
+    <path d="M43 52V7l22-7v65H43Z" fill="#17357f"/>
+    <path d="M66 50V26l10-6v36H66Z" fill="#2aa1d5"/>
+    <path d="M22 57h21v9H22zM43 52h23v13H43z" fill="#0d3b66" opacity="0.14"/>
   </g>
 
-  <g transform="translate(155 31)">
+  <g transform="translate(102 24)" filter="url(#softShadow)">
     <text
       x="0"
-      y="20"
+      y="0"
+      dominant-baseline="hanging"
       fill="#172033"
       font-family="Barlow, Arial, sans-serif"
-      font-size="21"
+      font-size="15"
       font-weight="800"
-      letter-spacing=".8"
+      letter-spacing=".35"
     >
       CONSTRUCTORA Y CONSULTORIA
     </text>
     <text
       x="0"
-      y="83"
-      fill="url(#name)"
+      y="60"
+      fill="#243472"
       font-family="Georgia, 'Times New Roman', serif"
-      font-size="59"
+      font-size="48"
       font-weight="700"
+      letter-spacing="-1.1"
     >
       Jocaval S.A.C.
     </text>
-    <path d="M1 94h317" stroke="#1b7fb7" stroke-width="3" stroke-linecap="round"/>
   </g>
 </svg>
