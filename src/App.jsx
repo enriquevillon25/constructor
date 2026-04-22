@@ -401,7 +401,7 @@ function App() {
                     >
                       <Box>
                         <Typography variant="h4" sx={{ mb: 1.5 }}>
-                          Hablemos de tu proyecto
+                          Para mayor información
                         </Typography>
                         <Typography sx={{ color: 'rgba(255,255,255,0.76)' }}>
                           Escríbenos para recibir información comercial, coordinar una consulta o solicitar atención sobre servicios de construcción y consultoría.
