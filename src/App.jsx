@@ -171,8 +171,8 @@ function App() {
                     Datos corporativos clave
                   </Typography>
                   <Typography sx={{ color: 'rgba(255,255,255,0.76)', mb: 3 }}>
-                    La pagina esta pensada para mostrar de forma rapida el nombre comercial, el RUC,
-                    la fecha de inicio y la ubicacion del negocio.
+                    La página está pensada para mostrar de forma rápida el nombre comercial, el RUC,
+                    la fecha de inicio y la ubicación del negocio.
                   </Typography>
                   <Stack spacing={2.5}>
                     {siteContent.heroStats.map((stat) => (
@@ -200,7 +200,7 @@ function App() {
               <Grid item xs={12} md={6}>
                 <SectionTitle
                   eyebrow="NOSOTROS"
-                  title={`Presentacion corporativa de ${siteContent.shortName}`}
+                  title={`Presentación corporativa de ${siteContent.shortName}`}
                   description={siteContent.overview}
                 />
               </Grid>
@@ -256,8 +256,8 @@ function App() {
           <Box>
             <SectionTitle
               eyebrow="POLÍTICAS"
-              title="Gestion, cumplimiento y datos institucionales"
-              description="Jocaval presenta informacion corporativa clave junto a sistemas de gestion relevantes para seguridad, salud e integridad empresarial."
+              title="Gestión, cumplimiento y datos institucionales"
+              description="Jocaval presenta información corporativa clave junto a sistemas de gestión relevantes para seguridad, salud e integridad empresarial."
               align="center"
             />
             <Grid container spacing={3} sx={{ mt: 1 }}>
@@ -280,7 +280,7 @@ function App() {
             <SectionTitle
               eyebrow="SERVICIOS"
               title="Servicios y enfoque comercial"
-              description="La estructura mantiene una presentacion sencilla del mismo rubro y deja el contenido listo para seguir personalizandolo."
+              description="La estructura mantiene una presentación sencilla del mismo rubro y deja el contenido listo para seguir personalizándolo."
             />
             <Grid container spacing={3} sx={{ mt: 1 }}>
               {siteContent.services.map((service, index) => (
@@ -320,7 +320,7 @@ function App() {
             <SectionTitle
               eyebrow="CLIENTES"
               title="Espacio para tipos de clientes o aliados"
-              description="Si luego tienes logos reales, esta grilla se puede reemplazar facilmente sin tocar la estructura general."
+              description="Si luego tienes logos reales, esta grilla se puede reemplazar fácilmente sin tocar la estructura general."
               align="center"
             />
             <Grid container spacing={2.5} sx={{ mt: 1 }}>
@@ -361,8 +361,8 @@ function App() {
                 <Grid item xs={12} md={7}>
                   <SectionTitle
                     eyebrow="CONTACTO"
-                    title="Contacto e informacion legal"
-                    description="Informacion de contacto y datos legales de Constructora y Consultoria Jocaval S.A.C."
+                    title="Contacto e información legal"
+                    description="Información de contacto y datos legales de Constructora y Consultoría Jocaval S.A.C."
                   />
                   <Stack spacing={2.2} sx={{ mt: 3 }}>
                     <Stack direction="row" spacing={1.5} alignItems="center">
@@ -378,7 +378,7 @@ function App() {
                       <Typography>{siteContent.contact.address}</Typography>
                     </Stack>
                     <Typography color="text.secondary">RUC: {siteContent.contact.ruc}</Typography>
-                    <Typography color="text.secondary">Razon social: {siteContent.legalName}</Typography>
+                    <Typography color="text.secondary">Razón social: {siteContent.legalName}</Typography>
                   </Stack>
                 </Grid>
                 <Grid item xs={12} md={5}>
@@ -401,11 +401,11 @@ function App() {
                     >
                       <Box>
                         <Typography variant="h4" sx={{ mb: 1.5 }}>
-                          Presentacion lista para seguir afinando
+                          Presentación lista para seguir afinando
                         </Typography>
                         <Typography sx={{ color: 'rgba(255,255,255,0.76)' }}>
-                          Cuando me pases telefonos, correos, logo o fotos, te la dejo mucho mas
-                          cercana a una pagina final de empresa.
+                          Cuando me pases teléfonos, correos, logo o fotos, te la dejo mucho más
+                          cercana a una página final de empresa.
                         </Typography>
                       </Box>
                       <Button
