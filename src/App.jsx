@@ -280,7 +280,7 @@ function App() {
             <SectionTitle
               eyebrow="SERVICIOS"
               title="Servicios y enfoque comercial"
-              description="La estructura mantiene una presentación sencilla del mismo rubro y deja el contenido listo para seguir personalizándolo."
+              description="Atendemos necesidades del sector construcción con servicios orientados a ejecución, consultoría, coordinación y gestión responsable de proyectos."
             />
             <Grid container spacing={3} sx={{ mt: 1 }}>
               {siteContent.services.map((service, index) => (
@@ -319,8 +319,8 @@ function App() {
           <Box>
             <SectionTitle
               eyebrow="CLIENTES"
-              title="Espacio para tipos de clientes o aliados"
-              description="Si luego tienes logos reales, esta grilla se puede reemplazar fácilmente sin tocar la estructura general."
+              title="Clientes y aliados estratégicos"
+              description="Trabajamos con personas, empresas y organizaciones vinculadas al desarrollo de obras, proyectos inmobiliarios y servicios de construcción."
               align="center"
             />
             <Grid container spacing={2.5} sx={{ mt: 1 }}>
@@ -401,11 +401,10 @@ function App() {
                     >
                       <Box>
                         <Typography variant="h4" sx={{ mb: 1.5 }}>
-                          Presentación lista para seguir afinando
+                          Hablemos de tu proyecto
                         </Typography>
                         <Typography sx={{ color: 'rgba(255,255,255,0.76)' }}>
-                          Cuando me pases teléfonos, correos, logo o fotos, te la dejo mucho más
-                          cercana a una página final de empresa.
+                          Escríbenos para recibir información comercial, coordinar una consulta o solicitar atención sobre servicios de construcción y consultoría.
                         </Typography>
                       </Box>
                       <Button

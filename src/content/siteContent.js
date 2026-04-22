@@ -22,7 +22,7 @@ export const siteContent = {
     { value: 'Lima', label: 'Santiago de Surco, Perú' },
   ],
   overview:
-    'Somos una empresa activa del sector construcción que atiende proyectos con una propuesta corporativa sencilla, formal y orientada a generar confianza. Esta landing presenta la información clave del negocio de forma clara y fácil de actualizar.',
+    'Somos una empresa activa del sector construcción que atiende proyectos con una propuesta formal, responsable y orientada a generar confianza. Brindamos soluciones para obras, consultoría y acompañamiento técnico con respaldo documentario.',
   about:
     'Constructora y Consultoría Jocaval S.A.C. tiene como actividad comercial la construcción de edificios completos. La empresa opera en Lima, Perú, con domicilio legal en la urbanización Polo Sur, distrito de Santiago de Surco.',
   missionVision: [
@@ -75,16 +75,16 @@ export const siteContent = {
       description: 'Organización de etapas, necesidades del proyecto y seguimiento operativo con enfoque práctico.',
     },
     {
-      title: 'Gestión documental básica',
-      description: 'Presentación ordenada de información comercial, societaria y datos clave del negocio.',
+      title: 'Gestión documental del proyecto',
+      description: 'Organización de información técnica, comercial y societaria para una comunicación clara con clientes y aliados.',
     },
     {
       title: 'Atención a clientes y aliados',
       description: 'Canales directos para consultas comerciales, solicitudes y presentación de la empresa.',
     },
     {
-      title: 'Presencia corporativa digital',
-      description: 'Una página sencilla para mostrar datos reales del negocio y dar confianza desde el primer contacto.',
+      title: 'Cumplimiento e integridad',
+      description: 'Compromiso con buenas prácticas de seguridad, salud ocupacional e integridad en la gestión empresarial.',
     },
   ],
   clients: [
