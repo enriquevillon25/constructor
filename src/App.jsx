@@ -27,7 +27,7 @@ import {
 import { SectionTitle } from './components/SectionTitle';
 import { siteContent } from './content/siteContent';
 
-const logoSrc = `${import.meta.env.BASE_URL}logo-jocaval.svg`;
+const logoSrc = `${import.meta.env.BASE_URL}logo-jocaval.png`;
 
 const serviceIcons = [
   <EngineeringRounded fontSize="large" />,
@@ -62,8 +62,8 @@ function App() {
             <Stack direction="row" spacing={1.5} alignItems="center">
               <Box
                 sx={{
-                  width: { xs: 230, sm: 300, md: 360 },
-                  height: { xs: 56, md: 70 },
+                  width: { xs: 210, sm: 260, md: 310 },
+                  height: { xs: 72, md: 82 },
                   display: 'flex',
                   alignItems: 'center',
                 }}
@@ -412,7 +412,7 @@ function App() {
                         variant="contained"
                         color="secondary"
                         startIcon={<WhatsApp />}
-                        href="https://wa.me/51978360036"
+                        href="https://wa.me/51967522417"
                       >
                         Escribir por WhatsApp
                       </Button>

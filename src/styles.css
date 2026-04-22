@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 96px;
 }
 
 body {
@@ -14,4 +15,11 @@ body {
 
 a {
   color: inherit;
+}
+
+#inicio,
+#nosotros,
+#servicios,
+#contacto {
+  scroll-margin-top: 96px;
 }

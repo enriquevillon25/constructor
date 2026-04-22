@@ -18,7 +18,7 @@ export const siteContent = {
   },
   heroStats: [
     { value: 'RUC', label: '20531841035' },
-    { value: 'ISO', label: '45001:2018 y 37001:2016' },
+    { value: 'ISOS', label: '45001:2018 y 37001:2016' },
     { value: 'Lima', label: 'Santiago de Surco, Peru' },
   ],
   overview:
@@ -96,7 +96,7 @@ export const siteContent = {
     'Nuevas oportunidades comerciales',
   ],
   contact: {
-    phones: ['Agregar telefono principal', 'Agregar telefono secundario'],
+    phones: ['967 522 417'],
     emails: ['jocaval1969@hotmail.com'],
     address: 'Cal. el Maizal Nro. 146 Dpto. 101, Urbanizacion Polo Sur, Santiago de Surco, Lima, Peru',
     ruc: '20531841035',
